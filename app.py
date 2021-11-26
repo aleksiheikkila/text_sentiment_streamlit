@@ -2,7 +2,7 @@ import streamlit as st
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-st.write("# Real Time Text Sentiment Analysis")
+st.write("# Text Sentiment Analysis")
 
 user_input = st.text_input("Please give your feedback: ")
 nltk.download("vader_lexicon")
